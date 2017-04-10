@@ -1,0 +1,175 @@
+2017-04-10 13:47:10.815 [main] INFO  com.phyl.Application -Starting Application on DESKTOP-MQDI0BV with PID 10648 (E:\GitRepository\springboot_mybatis\target\classes started by xh in E:\GitRepository\springboot_mybatis)
+2017-04-10 13:47:10.819 [main] INFO  com.phyl.Application -No active profile set, falling back to default profiles: default
+2017-04-10 13:47:11.258 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@740fb309: startup date [Mon Apr 10 13:47:11 CST 2017]; root of context hierarchy
+2017-04-10 13:47:11.608 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
+2017-04-10 13:47:13.081 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 13:47:13.183 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 13:47:13.251 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c267930] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 13:47:13.833 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8080 (http)
+2017-04-10 13:47:13.856 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2017-04-10 13:47:13.858 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-04-10 13:47:14.022 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2017-04-10 13:47:14.023 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2765 ms
+2017-04-10 13:47:14.302 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2017-04-10 13:47:14.311 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-04-10 13:47:14.313 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-04-10 13:47:14.313 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-04-10 13:47:14.313 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2017-04-10 13:47:15.078 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@740fb309: startup date [Mon Apr 10 13:47:11 CST 2017]; root of context hierarchy
+2017-04-10 13:47:15.178 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/add]}" onto public void com.phyl.UserController.add()
+2017-04-10 13:47:15.180 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/update]}" onto public void com.phyl.UserController.update()
+2017-04-10 13:47:15.184 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-04-10 13:47:15.185 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-04-10 13:47:15.255 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 13:47:15.256 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 13:47:15.332 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 13:47:15.412 [main] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-04-10 13:47:16.373 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2017-04-10 13:47:16.400 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2017-04-10 13:47:16.423 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler [http-nio-8080]
+2017-04-10 13:47:16.448 [main] INFO  o.a.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2017-04-10 13:47:16.479 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat started on port(s): 8080 (http)
+2017-04-10 13:47:16.497 [main] INFO  com.phyl.Application -Started Application in 6.135 seconds (JVM running for 6.896)
+2017-04-10 13:48:41.711 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-04-10 13:48:41.712 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2017-04-10 13:48:41.734 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2017-04-10 13:54:18.385 [main] INFO  com.phyl.Application -Starting Application on DESKTOP-MQDI0BV with PID 5360 (E:\GitRepository\springboot_mybatis\target\classes started by xh in E:\GitRepository\springboot_mybatis)
+2017-04-10 13:54:18.390 [main] INFO  com.phyl.Application -No active profile set, falling back to default profiles: default
+2017-04-10 13:54:18.944 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7bd7d6d6: startup date [Mon Apr 10 13:54:18 CST 2017]; root of context hierarchy
+2017-04-10 13:54:19.132 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
+2017-04-10 13:54:20.651 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 13:54:20.759 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 13:54:20.808 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c267930] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 13:54:21.340 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8080 (http)
+2017-04-10 13:54:21.362 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2017-04-10 13:54:21.364 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-04-10 13:54:21.546 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2017-04-10 13:54:21.547 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2603 ms
+2017-04-10 13:54:21.755 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2017-04-10 13:54:21.762 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-04-10 13:54:21.764 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-04-10 13:54:21.765 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-04-10 13:54:21.765 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2017-04-10 13:54:22.761 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7bd7d6d6: startup date [Mon Apr 10 13:54:18 CST 2017]; root of context hierarchy
+2017-04-10 13:54:22.879 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/add]}" onto public void com.phyl.UserController.add()
+2017-04-10 13:54:22.881 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/update/{id}]}" onto public void com.phyl.UserController.update(int)
+2017-04-10 13:54:22.889 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-04-10 13:54:22.889 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-04-10 13:54:22.973 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 13:54:22.974 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 13:54:23.046 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 13:54:23.107 [main] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-04-10 13:54:24.112 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2017-04-10 13:54:24.133 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2017-04-10 13:54:24.153 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler [http-nio-8080]
+2017-04-10 13:54:24.172 [main] INFO  o.a.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2017-04-10 13:54:24.196 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat started on port(s): 8080 (http)
+2017-04-10 13:54:24.203 [main] INFO  com.phyl.Application -Started Application in 6.245 seconds (JVM running for 7.138)
+2017-04-10 13:54:29.408 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-04-10 13:54:29.409 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2017-04-10 13:54:29.430 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2017-04-10 13:55:31.072 [main] INFO  com.phyl.Application -Starting Application on DESKTOP-MQDI0BV with PID 4836 (E:\GitRepository\springboot_mybatis\target\classes started by xh in E:\GitRepository\springboot_mybatis)
+2017-04-10 13:55:31.076 [main] INFO  com.phyl.Application -No active profile set, falling back to default profiles: default
+2017-04-10 13:55:32.127 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f204a1a: startup date [Mon Apr 10 13:55:32 CST 2017]; root of context hierarchy
+2017-04-10 13:55:32.375 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
+2017-04-10 13:55:33.706 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 13:55:33.840 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 13:55:33.908 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d8c84e1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 13:55:34.534 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8080 (http)
+2017-04-10 13:55:34.559 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2017-04-10 13:55:34.563 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-04-10 13:55:34.821 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2017-04-10 13:55:34.821 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2733 ms
+2017-04-10 13:55:35.143 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2017-04-10 13:55:35.150 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-04-10 13:55:35.151 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-04-10 13:55:35.151 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-04-10 13:55:35.152 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2017-04-10 13:55:36.061 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f204a1a: startup date [Mon Apr 10 13:55:32 CST 2017]; root of context hierarchy
+2017-04-10 13:55:36.162 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/add]}" onto public void com.phyl.UserController.add()
+2017-04-10 13:55:36.164 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/update/{id}]}" onto public void com.phyl.UserController.update(int)
+2017-04-10 13:55:36.171 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-04-10 13:55:36.171 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-04-10 13:55:36.218 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 13:55:36.219 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 13:55:36.582 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 13:55:36.639 [main] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-04-10 13:55:37.740 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2017-04-10 13:55:37.780 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2017-04-10 13:55:37.810 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler [http-nio-8080]
+2017-04-10 13:55:37.840 [main] INFO  o.a.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2017-04-10 13:55:37.877 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat started on port(s): 8080 (http)
+2017-04-10 13:55:37.883 [main] INFO  com.phyl.Application -Started Application in 7.364 seconds (JVM running for 8.46)
+2017-04-10 13:55:54.931 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-04-10 13:55:54.931 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2017-04-10 13:55:54.949 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2017-04-10 13:58:43.731 [main] INFO  com.phyl.Application -Starting Application on DESKTOP-MQDI0BV with PID 12824 (E:\GitRepository\springboot_mybatis\target\classes started by xh in E:\GitRepository\springboot_mybatis)
+2017-04-10 13:58:43.734 [main] INFO  com.phyl.Application -No active profile set, falling back to default profiles: default
+2017-04-10 13:58:44.327 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43f02ef2: startup date [Mon Apr 10 13:58:44 CST 2017]; root of context hierarchy
+2017-04-10 13:58:44.642 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
+2017-04-10 13:58:46.763 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 13:58:46.955 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 13:58:47.056 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$59456f9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 13:58:48.057 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8080 (http)
+2017-04-10 13:58:48.080 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2017-04-10 13:58:48.085 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-04-10 13:58:48.288 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2017-04-10 13:58:48.289 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3962 ms
+2017-04-10 13:58:48.564 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2017-04-10 13:58:48.575 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-04-10 13:58:48.575 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-04-10 13:58:48.577 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-04-10 13:58:48.577 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2017-04-10 13:58:49.896 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43f02ef2: startup date [Mon Apr 10 13:58:44 CST 2017]; root of context hierarchy
+2017-04-10 13:58:50.064 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/add]}" onto public void com.phyl.UserController.add()
+2017-04-10 13:58:50.071 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/update/{id}]}" onto public void com.phyl.UserController.update(int)
+2017-04-10 13:58:50.077 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-04-10 13:58:50.079 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-04-10 13:58:50.236 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 13:58:50.237 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 13:58:50.363 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 13:58:50.493 [main] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-04-10 13:58:51.973 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2017-04-10 13:58:52.013 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2017-04-10 13:58:52.052 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler [http-nio-8080]
+2017-04-10 13:58:52.090 [main] INFO  o.a.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2017-04-10 13:58:52.117 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat started on port(s): 8080 (http)
+2017-04-10 13:58:52.125 [main] INFO  com.phyl.Application -Started Application in 8.923 seconds (JVM running for 10.042)
+2017-04-10 13:58:56.415 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-04-10 13:58:56.415 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2017-04-10 13:58:56.435 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2017-04-10 14:01:25.885 [main] INFO  com.phyl.Application -Starting Application on DESKTOP-MQDI0BV with PID 5288 (E:\GitRepository\springboot_mybatis\target\classes started by xh in E:\GitRepository\springboot_mybatis)
+2017-04-10 14:01:25.889 [main] INFO  com.phyl.Application -No active profile set, falling back to default profiles: default
+2017-04-10 14:01:26.829 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a8448fa: startup date [Mon Apr 10 14:01:26 CST 2017]; root of context hierarchy
+2017-04-10 14:01:27.218 [background-preinit] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.4.Final
+2017-04-10 14:01:30.110 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 14:01:30.326 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 14:01:30.423 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d8c84e1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-10 14:01:31.444 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8080 (http)
+2017-04-10 14:01:31.491 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2017-04-10 14:01:31.494 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-04-10 14:01:31.708 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2017-04-10 14:01:31.709 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 4880 ms
+2017-04-10 14:01:32.070 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2017-04-10 14:01:32.076 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-04-10 14:01:32.077 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-04-10 14:01:32.077 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-04-10 14:01:32.078 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2017-04-10 14:01:33.652 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a8448fa: startup date [Mon Apr 10 14:01:26 CST 2017]; root of context hierarchy
+2017-04-10 14:01:33.881 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/add]}" onto public void com.phyl.UserController.add()
+2017-04-10 14:01:33.885 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/update/{id}]}" onto public void com.phyl.UserController.update(int)
+2017-04-10 14:01:33.892 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-04-10 14:01:33.893 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-04-10 14:01:34.102 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 14:01:34.103 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 14:01:34.304 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-10 14:01:34.493 [main] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-04-10 14:01:36.376 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2017-04-10 14:01:36.440 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2017-04-10 14:01:36.456 [main] INFO  o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler [http-nio-8080]
+2017-04-10 14:01:36.512 [main] INFO  o.a.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2017-04-10 14:01:36.553 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat started on port(s): 8080 (http)
+2017-04-10 14:01:36.563 [main] INFO  com.phyl.Application -Started Application in 11.407 seconds (JVM running for 12.812)
+2017-04-10 14:01:41.173 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-04-10 14:01:41.173 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2017-04-10 14:01:41.198 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
